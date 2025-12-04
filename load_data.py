@@ -4,7 +4,7 @@ import os
 
 # Database credentials
 DB_USER = 'postgres'
-DB_PASSWORD = 'postgres'
+DB_PASSWORD = 'your_password_here'
 DB_HOST = 'localhost'
 DB_PORT = '5432'
 DB_NAME = 'postgres' # Default database
@@ -59,5 +59,6 @@ def load_data():
 
 if __name__ == "__main__":
     load_data()
+
 
 
